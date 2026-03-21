@@ -24,8 +24,13 @@ export function Header() {
   return (
     <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${isScrolled ? 'bg-white/95 backdrop-blur-md shadow-sm py-4' : 'bg-transparent py-6'}`}>
       <div className="container mx-auto px-4 max-w-7xl flex items-center justify-between">
-        <a href="#" className={`text-xl md:text-2xl font-heading font-bold tracking-tight transition-colors duration-300 ${isScrolled ? 'text-brand-primary' : 'text-white'}`}>
-          Мокреньков Анатолий
+        <a href="#" className="flex flex-col">
+          <span className={`text-xl md:text-2xl font-heading font-bold tracking-tight transition-colors duration-300 ${isScrolled ? 'text-brand-primary' : 'text-white'}`}>
+            Мокреньков Анатолий
+          </span>
+          <span className={`text-xs md:text-sm font-medium tracking-wide mt-0.5 transition-colors duration-300 ${isScrolled ? 'text-brand-primary/70' : 'text-brand-accent'}`}>
+            Арбитражный управляющий
+          </span>
         </a>
 
         {/* Desktop Nav */}

@@ -38,7 +38,7 @@ export function Pricing() {
               <p className="text-white/70 mb-10 text-lg">Полное сопровождение процедуры от сбора документов до списания долгов.</p>
               
               <div className="flex items-baseline gap-3 mb-10">
-                <span className="text-6xl md:text-7xl font-heading font-bold text-transparent bg-clip-text bg-gradient-to-r from-brand-accent to-yellow-200">150 000</span>
+                <span className="text-6xl md:text-7xl font-heading font-bold text-transparent bg-clip-text bg-gradient-to-r from-brand-accent to-yellow-200 py-2 pr-1">150 000</span>
                 <span className="text-2xl text-brand-accent/80">₽</span>
               </div>
 

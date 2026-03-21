@@ -58,9 +58,9 @@ export function Problems() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: "-50px" }}
               transition={{ duration: 0.5, delay: idx * 0.1 }}
-              className="bg-brand-bg p-8 sm:p-10 rounded-[2rem] border border-brand-border/50 hover:shadow-xl hover:border-brand-accent/30 transition-all duration-500 group"
+              className="bg-brand-bg p-8 sm:p-10 rounded-[2rem] border border-brand-border/50 hover:shadow-xl hover:border-brand-accent/30 transition-all duration-500 group text-center"
             >
-              <div className="bg-white w-16 h-16 rounded-2xl flex items-center justify-center shadow-sm mb-8 group-hover:scale-110 transition-transform duration-500">
+              <div className="mx-auto bg-white w-16 h-16 rounded-2xl flex items-center justify-center shadow-sm mb-8 group-hover:scale-110 transition-transform duration-500">
                 {prob.icon}
               </div>
               <h3 className="text-xl font-heading font-bold text-brand-primary mb-4">{prob.title}</h3>
