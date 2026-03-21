@@ -42,7 +42,7 @@ export function Problems() {
         <motion.div 
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, margin: "-100px" }}
+          viewport={{ once: true, amount: 0.1 }}
           transition={{ duration: 0.7 }}
           className="text-center max-w-3xl mx-auto mb-16"
         >
@@ -56,7 +56,7 @@ export function Problems() {
               key={idx} 
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true, margin: "-50px" }}
+              viewport={{ once: true, amount: 0.1 }}
               transition={{ duration: 0.5, delay: idx * 0.1 }}
               className="bg-brand-bg p-8 sm:p-10 rounded-[2rem] border border-brand-border/50 hover:shadow-xl hover:border-brand-accent/30 transition-all duration-500 group text-center"
             >
