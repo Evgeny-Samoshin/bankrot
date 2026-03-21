@@ -48,7 +48,7 @@ export function Cases() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, amount: 0.1 }}
               transition={{ duration: 0.5, delay: idx * 0.1 }}
-              className="bg-white p-8 sm:p-10 rounded-[2rem] border border-brand-border/50 shadow-lg hover:shadow-2xl hover:border-brand-accent/30 transition-all duration-500 flex flex-col h-full group"
+              className="bg-white p-8 sm:p-10 rounded-[2rem] border border-brand-border/50 shadow-lg hover:shadow-2xl hover:border-brand-accent/30 transition-[box-shadow,border-color] duration-500 flex flex-col h-full group"
             >
               <div className="flex justify-between items-center mb-8 pb-6 border-b border-brand-border/50">
                 <span className="text-xs font-mono text-brand-muted bg-brand-bg px-3 py-1.5 rounded-md border border-brand-border/50">Дело № {c.id}</span>

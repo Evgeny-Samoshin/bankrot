@@ -59,7 +59,7 @@ export function Services() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, amount: 0.1 }}
               transition={{ duration: 0.5, delay: idx * 0.1 }}
-              className="flex flex-col sm:flex-row gap-6 p-8 sm:p-10 rounded-[2rem] border border-white/10 bg-white/5 backdrop-blur-sm hover:bg-white/10 hover:border-brand-accent/30 transition-all duration-500 group"
+              className="flex flex-col sm:flex-row gap-6 p-8 sm:p-10 rounded-[2rem] border border-white/10 bg-white/5 backdrop-blur-sm hover:bg-white/10 hover:border-brand-accent/30 transition-colors duration-500 group"
             >
               <div className="bg-white/10 w-20 h-20 shrink-0 rounded-2xl flex items-center justify-center shadow-inner group-hover:scale-105 transition-transform duration-500">
                 {srv.icon}
