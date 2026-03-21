@@ -18,7 +18,7 @@ export function Header() {
     { name: 'Процедура', href: '#timeline' },
     { name: 'Стоимость', href: '#pricing' },
     { name: 'Кейсы', href: '#cases' },
-    { name: 'Контакты', href: '#contacts' },
+    { name: 'Контакты', href: '#contact-section' },
   ];
 
   return (
@@ -43,7 +43,7 @@ export function Header() {
         </nav>
 
         <div className="hidden lg:block">
-          <a href="#contact-form" className="bg-brand-accent hover:bg-brand-accent-hover text-white font-bold py-2.5 px-6 rounded-xl transition-colors duration-300 text-base shadow-lg shadow-brand-accent/20">
+          <a href="#contact-section" className="bg-brand-accent hover:bg-brand-accent-hover text-white font-bold py-2.5 px-6 rounded-xl transition-colors duration-300 text-base shadow-lg shadow-brand-accent/20">
             Получить консультацию
           </a>
         </div>
@@ -71,7 +71,7 @@ export function Header() {
             </a>
           ))}
           <a 
-            href="#contact-form" 
+            href="#contact-section" 
             className="bg-brand-accent text-white font-bold py-3 px-6 rounded-xl text-center mt-2 shadow-lg shadow-brand-accent/20"
             onClick={() => setIsMobileMenuOpen(false)}
           >
