@@ -66,8 +66,8 @@ export function Timeline() {
                 
                 {/* Content */}
                 <div className={`md:w-1/2 w-full ${idx % 2 === 0 ? 'md:text-left' : 'md:text-right'}`}>
-                  <div className="bg-white p-8 sm:p-10 rounded-[2rem] shadow-lg border border-brand-border/50 relative z-10 hover:shadow-2xl hover:border-brand-accent/30 transition-all duration-500 group">
-                    <span className="text-6xl font-heading font-extrabold text-transparent bg-clip-text bg-gradient-to-b from-brand-primary/10 to-transparent absolute top-4 right-6 group-hover:from-brand-accent/20 transition-all duration-500">{step.num}</span>
+                  <div className="bg-white p-8 sm:p-10 rounded-[2rem] shadow-lg border border-brand-border/50 relative z-10 hover:shadow-2xl hover:border-brand-accent/30 transition-colors duration-500 group">
+                    <span className="text-6xl font-heading font-extrabold text-transparent bg-clip-text bg-gradient-to-b from-brand-primary/10 to-transparent absolute top-4 right-6 group-hover:from-brand-accent/20 transition-colors duration-500">{step.num}</span>
                     <h3 className="text-2xl font-heading font-bold text-brand-primary mb-4 relative z-10">{step.title}</h3>
                     <p className="text-brand-muted leading-relaxed relative z-10">{step.desc}</p>
                   </div>

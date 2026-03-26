@@ -64,9 +64,9 @@ export function Advantages() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, amount: 0.1 }}
               transition={{ duration: 0.5, delay: idx * 0.1 }}
-              className="bg-white/5 backdrop-blur-sm border border-white/10 p-8 rounded-[2rem] hover:bg-white/10 hover:border-brand-accent/30 transition-all duration-500 group"
+              className="bg-white/5 backdrop-blur-sm border border-white/10 p-8 rounded-[2rem] hover:bg-white/10 hover:border-brand-accent/30 transition-colors duration-500 group"
             >
-              <div className="bg-white/10 w-14 h-14 rounded-2xl flex items-center justify-center mb-6 lg:group-hover:scale-110 transition-transform duration-500">
+              <div className="bg-white/10 w-14 h-14 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-105 transition-transform duration-500">
                 {adv.icon}
               </div>
               <h3 className="text-xl font-heading font-bold mb-3">{adv.title}</h3>
